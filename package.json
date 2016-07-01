@@ -1,0 +1,28 @@
+{
+  "name": "etcd-service-discovery",
+  "version": "0.0.1",
+  "description": "Simple example of service discovery with etcd and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattCollins84/etcd-service-discovery.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MattCollins84/etcd-service-discovery/issues"
+  },
+  "homepage": "https://github.com/MattCollins84/etcd-service-discovery#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "chalk": "^1.1.3",
+    "express": "^4.14.0",
+    "node-etcd": "5.0.1",
+    "optimist": "^0.6.1",
+    "request": "^2.72.0",
+    "underscore": "^1.8.3"
+  }
+}
